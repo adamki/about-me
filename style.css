@@ -1,4 +1,172 @@
-* {
-  border: 1px solid lightblue;
-  font-family: sans-serif
+body {
+  height: 100%;
+  width: 100%;
+  /*border: 1px solid lightblue;*/
+  font-family: sans-serif;
+  background-color: #9E9E9E;
 }
+
+/*Stylings for header section*/
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+#upper-nav{
+  height: 65px;
+  background-color: #3949AB;
+}
+
+#header {
+  background-color: #3F51B5;
+  height: 450px;
+}
+
+#header h1,
+        h4,
+        a {
+  text-align: center;
+  color: #E3F2FD;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased
+}
+
+h1 , h4 {
+  font-weight: lighter;
+}
+h1 {
+  font-size: 5em;
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-size: 3em;
+}
+
+  /*top nav syles*/
+
+
+.container button {
+  width: 100px;
+  height: 100%;
+  text-decoration: none;
+}
+
+.container a:hover {
+  background-color: #4FC3F7;
+}
+
+/*main styles*/
+
+#main {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1.3em;
+  background-color: white;
+  padding-bottom: 100px;
+
+}
+
+#main h3 {
+  text-align: center;
+  padding-top: 100px ;
+}
+
+.about-me {
+  padding-top: 20px;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 50px;
+}
+
+/*contact me section*/
+
+#contact{
+  height: 300px;
+  background-color: black;
+  color: #3949AB;
+  font-size: .7em;
+  font-weight: 100;
+}
+
+#contact img {
+  height: 150px;
+  width: 150px;
+}
+
+.col-md-9 h1 {
+  text-align: right;
+}
+
+.glyphicon {
+  background-color: rgba(247, 247, 247, 0);
+  color: tomato;
+}
+
+.col-md-3 {
+  margin-top: 130px;
+}
+
+
+/*lower styles*/
+
+#lower {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1em;
+  color:white;
+}
+
+#left,
+#middle,
+#right {
+  padding-top: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom:100px;
+}
+
+
+
+
+/*media queries*/
+@media (max-width: 700px) {
+  .container button {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+  }
+  a{
+    height: 40px;
+  }
+  #header h1 {
+    margin: 0px;
+  }
+  .col-md-9 h1 {
+    margin-top: 0px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .glyphicon {
+    background-color: rgba(247, 247, 247, 0);
+    color: tomato;
+  }
+  .col-md-3 {
+    text-align: center;
+    margin-top: 0px;
+  }
+}
+
+
+
+
+
+/*TO DO: add a jumbo image... nice and glossy*/
+/*
+.jumbo {
+  background-image: image("http://theradavist.com/wp-content/uploads/2014/10/RGR_BOULDER_RADAVIST-64-1335x891@2x.jpg");
+}*/
