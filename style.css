@@ -1,3 +1,4 @@
+
 body {
   height: 100%;
   width: 100%;
@@ -16,11 +17,11 @@ body {
 
 #upper-nav{
   height: 65px;
-  background-color: #3949AB;
+  background-color: #00838F;
 }
 
 #header {
-  background-color: #3F51B5;
+  background-color: #0097A7;
   height: 450px;
 }
 
@@ -86,8 +87,8 @@ h4 {
 
 #contact{
   height: 300px;
-  background-color: black;
-  color: #3949AB;
+  background-color: #455A64;
+  color: white;
   font-size: .7em;
   font-weight: 100;
 }
@@ -95,9 +96,13 @@ h4 {
 #contact img {
   height: 150px;
   width: 150px;
+  border-radius: 100px;
+  margin-top: 80px;
+  border: 1px lightblue solid;
+  float: right;
 }
 
-.col-md-9 h1 {
+.col-md-4 h1 {
   text-align: right;
 }
 
@@ -106,7 +111,7 @@ h4 {
   color: tomato;
 }
 
-.col-md-3 {
+#mail-icon {
   margin-top: 130px;
 }
 
@@ -118,6 +123,12 @@ h4 {
   font-weight: lighter;
   font-size: 1em;
   color:white;
+}
+
+#left,
+#middle p
+{
+  border-right: 1px white solid,
 }
 
 #left,
