@@ -1,8 +1,11 @@
-
+*{
+  font-weight: lighter;
+}
 body {
   height: 100%;
   width: 100%;
   font-family: sans-serif;
+
 }
 
 .container-fluid {
@@ -18,7 +21,7 @@ body {
 }
 
 .navbar button:hover{
-  background-color: #0097A7;
+  background-color: #1A237E;
 }
 
 .navbar-default .btn-link{
@@ -41,10 +44,8 @@ a:hover{
   margin: 0px;
 }
 
-
 #header {
-  padding-top: 130px;
-
+  padding-top: 100px;
   background-color: #3f51b5;
   height: 450px;
 }
@@ -111,51 +112,16 @@ h4 {
   border: 4px #3f51b5 solid;
   border-radius: 100px;
   margin-left: 42.5%;
+  margin-top: 2.5%;
 }
 
 
-
-
-
-
-
-
-/*contact me section*/
-
-#contact{
-  height: 300px;
-  background-color: #455A64;
-  color: white;
-  font-size: .7em;
-  font-weight: 100;
-}
-
-#contact img {
-  height: 100%;
-  border-radius: 0px;
-  margin-top: 80px;
-  border: 1px lightblue solid;
-  float: right;
-}
-
-.col-md-4 h1 {
-  text-align: right;
-}
-
-.glyphicon {
-  background-color: rgba(247, 247, 247, 0);
-  color: tomato;
-}
-
-#mail-icon {
-  margin-top: 130px;
-}
 
 
 /*lower styles*/
 
 #lower {
-  background-color: #9E9E9E;
+  background-color: #455A64;
   text-align: center;
   font-weight: lighter;
   font-size: 1em;
@@ -163,20 +129,38 @@ h4 {
 }
 
 #left,
-#middle p {
-  border-right: 1px #fff solid,
-}
-
-#left,
 #middle,
 #right {
-  background-color: #9E9E9E;
+  background-color: #455A64;
   padding-top: 100px;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom:100px;
-
 }
+
+
+#lower img  {
+  height: 100px;
+  width: 100px;
+}
+
+.glyphicon-console {
+  color: #ECEFF1;
+  font-size: 6em;
+}
+
+
+
+
+/*footer*/
+#footer {
+  height: 20px;
+  text-align: center;
+}
+
+
+
+
 
 
 
@@ -202,6 +186,13 @@ h4 {
     margin-top: 0px;
     padding-top: 30px;
     text-align: center;
+  }
+
+  #test-img{
+    margin:0px;
+    border-radius: 0px;
+    border: 5px #3f51b5 solid;
+    width: 100%;
   }
   .glyphicon {
     background-color: rgba(247, 247, 247, 0);
