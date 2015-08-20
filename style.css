@@ -2,32 +2,55 @@
 body {
   height: 100%;
   width: 100%;
-  /*border: 1px solid lightblue;*/
   font-family: sans-serif;
-  background-color: #9E9E9E;
 }
 
-/*Stylings for header section*/
-
-.container {
+.container-fluid {
   margin: 0px;
   padding: 0px;
   width: 100%;
 }
+/*Stylings for navbar section*/
 
-#upper-nav{
-  height: 65px;
-  background-color: #00ACC1;
+.navbar {
+  border: 0px;
+  margin-bottom: 0px;
 }
 
+.navbar button:hover{
+  background-color: #0097A7;
+}
+
+.navbar-default .btn-link{
+  color: white;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.navbar-default .btn-link:hover{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: inherit;
+}
+.navbar  div{
+  height: 65px;
+  background-color: #00ACC1;
+  margin: 0px;
+}
+
+
 #header {
+  padding-top: 130px;
+
   background-color: #00BCD4;
   height: 450px;
 }
 
 #header h1,
-        h4,
-        a {
+        h4{
   text-align: center;
   color: #E3F2FD;
   font-family: 'Roboto Condensed', sans-serif;
@@ -38,7 +61,6 @@ h1 , h4 {
 }
 h1 {
   font-size: 5em;
-  margin-top: 130px;
   margin-bottom: 50px;
 }
 
@@ -49,15 +71,13 @@ h4 {
   /*top nav syles*/
 
 
-.container button {
+.container-fluid button {
   width: 100px;
   height: 100%;
   text-decoration: none;
 }
 
-.container a:hover {
-  background-color: #00BCD4;
-}
+
 
 /*main styles*/
 
@@ -135,6 +155,7 @@ h4 {
 /*lower styles*/
 
 #lower {
+  background-color: #9E9E9E;
   text-align: center;
   font-weight: lighter;
   font-size: 1em;
@@ -149,27 +170,26 @@ h4 {
 #left,
 #middle,
 #right {
+  background-color: #9E9E9E;
   padding-top: 100px;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom:100px;
+
 }
 
 
 
 
 /*media queries*/
-@media (max-width: 500px) {
-  .container button {
+@media (max-width: 550px) {
+  .container-fluid button {
     width: 100%;
     padding: 0px;
     margin: 0px;
     border: 0px;
   }
-  
-  a{
-    height: 40px;
-  }
+
   #header h1 {
     margin: 0px;
   }
