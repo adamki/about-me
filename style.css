@@ -17,11 +17,11 @@ body {
 
 #upper-nav{
   height: 65px;
-  background-color: #00838F;
+  background-color: #00ACC1;
 }
 
 #header {
-  background-color: #0097A7;
+  background-color: #00BCD4;
   height: 450px;
 }
 
@@ -31,7 +31,6 @@ body {
   text-align: center;
   color: #E3F2FD;
   font-family: 'Roboto Condensed', sans-serif;
-  -webkit-font-smoothing: antialiased
 }
 
 h1 , h4 {
@@ -57,7 +56,7 @@ h4 {
 }
 
 .container a:hover {
-  background-color: #4FC3F7;
+  background-color: #00BCD4;
 }
 
 /*main styles*/
@@ -83,6 +82,24 @@ h4 {
   padding-bottom: 50px;
 }
 
+/*test img*/
+
+#test-img {
+  position: relative;
+  width: 15%;
+  z-index:1000;
+  border: 4px #00BCD4 solid;
+  border-radius: 100px;
+  margin-left: 42.5%;
+}
+
+
+
+
+
+
+
+
 /*contact me section*/
 
 #contact{
@@ -94,9 +111,8 @@ h4 {
 }
 
 #contact img {
-  height: 150px;
-  width: 150px;
-  border-radius: 100px;
+  height: 100%;
+  border-radius: 0px;
   margin-top: 80px;
   border: 1px lightblue solid;
   float: right;
@@ -126,9 +142,8 @@ h4 {
 }
 
 #left,
-#middle p
-{
-  border-right: 1px white solid,
+#middle p {
+  border-right: 1px #fff solid,
 }
 
 #left,
@@ -144,13 +159,14 @@ h4 {
 
 
 /*media queries*/
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .container button {
     width: 100%;
     padding: 0px;
     margin: 0px;
     border: 0px;
   }
+  
   a{
     height: 40px;
   }
