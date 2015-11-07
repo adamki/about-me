@@ -74,9 +74,7 @@ h4 {
   /*top nav syles*/
 
 
-.container-fluid button {
-  width: 100px;
-  height: 100%;
+nav {
   text-decoration: none;
 }
 
