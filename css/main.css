@@ -8,7 +8,7 @@
 
     *****************************************
 
-
+    - custom logo sizing
     - Fonts
     - Reset Default Foundation Styling
     - Hero
@@ -24,16 +24,13 @@
 
 */
 
+/*Custom Logo sizing in the testimonials section*/
+/*Custom Logo sizing in the services section*/
 
-.tesimonial img {
-  width: 50px;
+.tesimonial img,
+.custom-logo{
+  height: 70px;
 }
-
-
-
-
-
-
 
 /*		Fonts		*/
 
