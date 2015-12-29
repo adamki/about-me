@@ -413,7 +413,6 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	font-size: 22px;
 	font-family: "raleway-light", Helvetica, Arial, sans-serif;
 	font-weight: lighter;
-	text-transform: lowercase;
 }
 
 .services .services_list{
