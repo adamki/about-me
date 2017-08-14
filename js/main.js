@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	
+
 
 	/*  Foundation Init    */
 	$(document).foundation();
@@ -31,6 +31,7 @@ $(document).ready(function(){
 	/*    Mean navigation menu scroll to    */
     $('#mean_nav ul li a').click(function(e){
     	e.preventDefault();
+      console.log(this);
     	scrollTo($(this).attr('href'), 900, 'easeInOutCubic');
     });
 
@@ -45,21 +46,21 @@ $(document).ready(function(){
     back_top.click(function(e){
     	e.preventDefault();
     	scrollTo(0, 900, 'easeInOutCubic');
-    	
+
     });
 
     function scrollTo(target, speed, ease){
-    	$(window).scrollTo(target, speed, {easing:ease});
+    	$(window).scrollTo(target, speed);
     }
 
-    $(window).on('scroll', function(){    
+    $(window).on('scroll', function(){
 	    if($(this).scrollTop()>749)
 	    {
 	    	back_top.stop().animate({opacity : 1}, 250);
 	    }else
 	    {
-	    	back_top.stop().animate({opacity : 0}, 250);	    
-	    }   
+	    	back_top.stop().animate({opacity : 0}, 250);
+	    }
     });
 
 });
